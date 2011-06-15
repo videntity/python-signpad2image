@@ -51,6 +51,7 @@ Returns:
 
 Example:
 ~~~~~~~~~
+A simple example using straigh-up python.
 ::
 	from sigpad2image.sigpad2image import s2if
 
