@@ -47,7 +47,7 @@ Requires:
 
 Returns:
 ~~~~~~~
-* str - Astring containing the output image path.
+* str - A string containing the output image path.
 
 Example:
 ~~~~~~~~~
