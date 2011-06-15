@@ -48,7 +48,7 @@ packages, data_files = [], []
 root_dir = os.path.dirname(__file__)
 if root_dir != '':
     os.chdir(root_dir)
-sigpad_dir = 'sigpad2image'
+sigpad_dir = 'signpad2image'
 
 for dirpath, dirnames, filenames in os.walk(sigpad_dir):
     # Ignore dirnames that start with '.'
@@ -66,15 +66,15 @@ if len(sys.argv) > 1 and sys.argv[1] == 'bdist_wininst':
         file_info[0] = '\\PURELIB\\%s' % file_info[0]
 
 
-setup(name="python-sigpad2image",
+setup(name="python-signpad2image",
       version="0.0.1",
       description="SignaturePad 2 Image Utility",
       author="Alan Viars",
       author_email="aviars@videntity.com",
-      url="http://gitbub.com/aviars/videntity/python-sigpad2image",
-      download_url="http://github.com/videntitypython-sigpad2image/tarball/master",
+      url="http://gitbub.com/aviars/videntity/python-signpad2image",
+      download_url="http://github.com/videntity/python-signpad2image/tarball/master",
       packages=packages,
-      package_data={'sigpad2image': ['sigpad2image/*.png']},
-      scripts=['sigpad2image/sigpad2image.py',
+      package_data={'signpad2image': ['sigpad2image/*.png']},
+      scripts=['signpad2image/signpad2image.py',
                ]
       )
