@@ -67,7 +67,7 @@ if len(sys.argv) > 1 and sys.argv[1] == 'bdist_wininst':
 
 
 setup(name="python-signpad2image",
-      version="0.0.1",
+      version="0.0.2",
       description="SignaturePad 2 Image Utility",
       author="Alan Viars",
       author_email="aviars@videntity.com",
